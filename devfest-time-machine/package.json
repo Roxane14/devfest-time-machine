@@ -2,7 +2,7 @@
   "name": "devfest-time-machine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://roxane14.github.io/devfest-time-machine",
+  "homepage": "https://roxane14.github.io/devfest-time-machine/#",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
