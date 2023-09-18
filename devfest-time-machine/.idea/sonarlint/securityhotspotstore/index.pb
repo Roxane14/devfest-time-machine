@@ -17,8 +17,6 @@ A
 src/setupTests.ts,3\9\39129446b425a1d640160c068e4194e96639eedf
 @
 src/App.test.tsx,1\f\1fc1c06a0502bf303f8ba35e530938a98e7e35b2
-=
-src/index.tsx,5\a\5ab44fe33ca96299f51ad4778a73e425b92bf439
 F
 src/react-app-env.d.ts,4\a\4a7b99bdbee5792679d347b6474463bf5e14b66d
 C

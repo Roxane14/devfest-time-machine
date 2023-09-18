@@ -4,8 +4,11 @@ import Home from "./pages/Home";
 import Eula from "./pages/Eula";
 import { ROUTES } from "./config/routes.constants";
 import Category from "./pages/Category";
+import { getData } from "./services/get-data";
 
 function App() {
+
+  getData();
   return (
   <BrowserRouter>
     <Routes>

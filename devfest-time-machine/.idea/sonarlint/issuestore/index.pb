@@ -16,8 +16,6 @@ D
 src/App.test.tsx,1\f\1fc1c06a0502bf303f8ba35e530938a98e7e35b2
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
-=
-src/index.tsx,5\a\5ab44fe33ca96299f51ad4778a73e425b92bf439
 P
  src/components/common/Layout.tsx,7\8\78349e204764a87cbfaa1dc323c73bab1d618230
 C

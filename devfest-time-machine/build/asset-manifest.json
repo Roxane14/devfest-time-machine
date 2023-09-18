@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/devfest-time-machine/static/css/main.1dcd7f79.css",
-    "main.js": "/devfest-time-machine/static/js/main.0c7d2ac3.js",
+    "main.js": "/devfest-time-machine/static/js/main.cc9ac9aa.js",
     "static/js/787.c0d511cd.chunk.js": "/devfest-time-machine/static/js/787.c0d511cd.chunk.js",
     "static/media/background.jpg": "/devfest-time-machine/static/media/background.ab7cd154ffc5df5e1183.jpg",
     "index.html": "/devfest-time-machine/index.html",
     "main.1dcd7f79.css.map": "/devfest-time-machine/static/css/main.1dcd7f79.css.map",
-    "main.0c7d2ac3.js.map": "/devfest-time-machine/static/js/main.0c7d2ac3.js.map",
+    "main.cc9ac9aa.js.map": "/devfest-time-machine/static/js/main.cc9ac9aa.js.map",
     "787.c0d511cd.chunk.js.map": "/devfest-time-machine/static/js/787.c0d511cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1dcd7f79.css",
-    "static/js/main.0c7d2ac3.js"
+    "static/js/main.cc9ac9aa.js"
   ]
 }
