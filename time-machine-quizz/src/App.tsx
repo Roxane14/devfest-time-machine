@@ -7,6 +7,7 @@ import Category from "./pages/Category";
 import { getData } from "./services/get-data";
 import Question from "./pages/Question";
 import Result from "./pages/Result";
+import End from "./pages/End";
 
 function App() {
   getData();
@@ -18,6 +19,7 @@ function App() {
       <Route path={ROUTES.CATEGORY} element={<Category />}/>
       <Route path={ROUTES.QUESTION} element={<Question />}/>
       <Route path={ROUTES.RESULT} element={<Result />}/>
+      <Route path={ROUTES.END} element={<End />}/>
     </Routes>
   </BrowserRouter>
   );

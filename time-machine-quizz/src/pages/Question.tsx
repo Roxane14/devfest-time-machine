@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from "../components/common/Layout";
+import { ROUTES } from "../config/routes.constants";
 
 function Question() {
 
@@ -10,9 +11,11 @@ function Question() {
                 <h1>Qui a gagné l’Oscar du meilleur film en 1998 ?</h1>
             </div>
             <div className={"options"}>
+                <a href={ROUTES.RESULT}>
                 <button className="container">
                     <h1>Titanic</h1>
                 </button>
+                </a>
                 <button className="container">
                     <h1>Barbie</h1>
                 </button>
