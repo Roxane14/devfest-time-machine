@@ -1,0 +1,74 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 16px;
+  box-sizing: border-box;
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .timer {
+    font-size: 20px;
+  }
+
+  .back-button {
+    background-color: transparent;
+    color: $primary-color;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    &::before {
+      content: '\27A4';
+      display: inline-block;
+      transform: rotate(-180deg);
+    }
+
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+  }
+
+  .top-right-labels{
+    display: flex;
+    font-size: 20px;
+
+    .time{
+      border-left: 1px solid black;
+      padding-left: 1.5rem;
+    }
+
+    .score{
+      padding-right: 1.5rem;
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  .leave-button{
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 2px solid $red;
+    color: $red;
+    background-color: white;
+    margin-left: 20px;
+  }
+
+}
