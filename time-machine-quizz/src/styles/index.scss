@@ -1,7 +1,8 @@
 @import "colors";
 @import "header";
 @import "eula";
-
+@import "question";
+@import "result";
 
 // Base styles
 body {
@@ -36,12 +37,11 @@ body {
 }
 
 .container {
-  max-width: 70%;
+  margin: 0 100px;
   padding: 20px 30px;
   border-radius: 8px;
   background-color: #fff; // White background
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); // Lighter box shadow
-
 }
 
 // Form

@@ -5,6 +5,8 @@ import Eula from "./pages/Eula";
 import { ROUTES } from "./config/routes.constants";
 import Category from "./pages/Category";
 import { getData } from "./services/get-data";
+import Question from "./pages/Question";
+import Result from "./pages/Result";
 
 function App() {
   getData();
@@ -14,6 +16,8 @@ function App() {
       <Route path={ROUTES.HOME} element={<Home />}/>
       <Route path={ROUTES.EULA} element={<Eula />}/>
       <Route path={ROUTES.CATEGORY} element={<Category />}/>
+      <Route path={ROUTES.QUESTION} element={<Question />}/>
+      <Route path={ROUTES.RESULT} element={<Result />}/>
     </Routes>
   </BrowserRouter>
   );

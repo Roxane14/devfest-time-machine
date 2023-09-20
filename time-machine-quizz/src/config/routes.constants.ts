@@ -3,8 +3,7 @@ const ROUTES = {
     EULA: "/eula",
     CATEGORY: "/category",
     QUESTION: "/question",
-    SUCCESS: "/success",
-    FAILURE: "/failure",
+    RESULT: "/result",
     END: "/end"
 };
 
